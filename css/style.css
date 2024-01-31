@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, li, ol {
+  list-style-type: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+* ::before,
+* ::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+}
+
+.exercise--container {
+}
+
+
+.elements--section {
+}
+
+.elements__squares {
+  padding-block: 20px;
+  display: flex;
+  gap: 30PX;
+}
+
+.square {
+  padding: 20PX;
+  width: 120px;
+  height: 120px;
+}
+
+
+.actions--section {
+}
+
+.actions__btn {
+  padding-block: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.actions__btn button {
+  padding: 3px 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.increment {
+  background-color: orange;
+}
+
+.resetAll {
+  background-color: yellow;
+}
+
+.createNew {
+  background-color: green;
+}
+
+.refillText {
+  background-color: purple;
+}
+
+.showStatistic {
+  background-color: gainsboro;
+}
+
+.deleteAll {
+  background-color: pink;
+}
+
+
+.statistics--section {
+}
+.statistics__items {
+  padding-block: 20px;
+}
+
+.statistics__items span {
+  font-weight: 700;
+}
+
+
+.statistics__item {
+}
+.statistics__summ {
+}
+.statistics__average {
+}
+.statistics__min {
+}
+.statistics__max {
+}
+
+.errorBlock{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border: .0625rem solid rgb(252, 0, 0);
+  background-color: rgb(111, 109, 109);
+  height: 6.25rem;
+  width: 40%;
+  text-align: center;
+  padding: 1rem;
+}
